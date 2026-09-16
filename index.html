@@ -47,9 +47,11 @@
     }
     .brand{display:flex;align-items:center;gap:11px;font-weight:700;letter-spacing:.02em}
     .brand-mark{
-      width:38px;height:38px;border-radius:50%;
-      background:var(--ink);color:#fff;display:grid;place-items:center;
-      font-family:"Playfair Display",serif;font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
     }
     .brand span:last-child{font-size:18px}
     .nav-links{display:flex;gap:30px;font-size:14px;font-weight:600}
@@ -197,8 +199,8 @@
   <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="#top" aria-label="GS Artisan home">
-        <span class="brand-mark">GS</span>
-        <span>GS Artisan</span>
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/329881871/652909725-1d187308-541a-4475-9efc-fab2ab3c6c5b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260916%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260916T112548Z&X-Amz-Expires=300&X-Amz-Signature=f0a90923bbdedad6db16a9000503647eaadaf40dd53fed39498c1e7ef80fe101&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" alt="GS Artisan" class="brand-mark">
+  <span>GS Artisan</span>
       </a>
 
       <nav class="nav-links" aria-label="Main navigation">
